@@ -1,2 +1,11 @@
-frontend/movie-web/node_modules/
+frontend/movie-web/node_modules
 frontend/movie-web/target/
+/target
+*.class
+target/classes/com/movie/api/config/SwaggerConfig.class
+src/.DS_Store
+frontend/movie-web/node_modules/.cache/default-development/index.pack.old
+frontend/movie-web/node_modules/.cache/default-development/index.pack
+frontend/movie-web/node_modules/.cache/default-development/0.pack
+frontend/movie-web/node_modules/.cache/.eslintcache
+frontend/.DS_Store
