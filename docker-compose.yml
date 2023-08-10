@@ -33,7 +33,7 @@ services:
             - 8080:8080
         environment:
             SPRING_APPLICATION_JSON: '{
-                "spring.datasource.url":"jdbc:mysql://mysqldb:33061/movie_db?createDatabaseIfNotExist=true&useUnicode=true&characterEncoding=utf-8&autoReconnect=true",
+                "spring.datasource.url":"jdbc:mysql://mysqldb:33061/movie-db?createDatabaseIfNotExist=true&useUnicode=true&characterEncoding=utf-8&autoReconnect=true",
                 "spring.datasource.username":"root",
                 "spring.datasource.password":"Welcome12!",
                 "spring.datasource.driver-class-name":"com.mysql.cj.jdbc.Driver",
