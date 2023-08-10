@@ -4,5 +4,5 @@ RUN mkdir /opt/packages
 ADD /target/movie-0.0.1-SNAPSHOT.jar /opt/packages
 WORKDIR /opt/packages
 
-EXPOSE 8080
-CMD ["java", "-jar", "./movie-0.0.1-SNAPSHOT.jar"]
+EXPOSE 8081
+

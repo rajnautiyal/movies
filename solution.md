@@ -26,7 +26,8 @@ for specific movie
 * Implement rate limiting for all API requests, so not one will overload the services, Implement the load balancer to manage the load
 * When calling the external API, implement the Circuit Breaker pattern. Currently, we can make 100 requests, so we need to handle what will happen after exceeding 100 requests.
 * Instead of using an RDBMS database, switch to a NoSQL database where data can be stored and retrieved more efficiently.
-* Implement the proper sharding mechanism so we can partition the data
+* Implement the proper sharding mechanism so we can partition the data either use the hashkey or range based sharding, in this case I think range based sharding opt more
+* Also better to implement the elastic sera
 * Implement proper test cases to ensure functionality and reliability.
 
 
