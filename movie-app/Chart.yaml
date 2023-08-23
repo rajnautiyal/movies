@@ -1,0 +1,4 @@
+apiVersion: v2
+name: mymovies-app
+version: 0.1.0
+description: A Helm chart for deploying Movie application and MySQL application using helm chart
