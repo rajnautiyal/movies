@@ -7,11 +7,11 @@ app:
     port: 8080
   env:
     - name: SPRING_DATASOURCE_URL
-      value: jdbc:mysql://mymovie-mysql:3306/movie_db?createDatabaseIfNotExist=true&useUnicode=true&characterEncoding=utf-8&autoReconnect=true
+      value: jdbc:mysql://mymovie-mysql:3306/movie_db?createDatabaseIfNotExist=true&useUnicode=true&characterEncoding=utf-8&autoReconnect=true&useSSL=false
     - name: SPRING_DATASOURCE_USERNAME
-      value: myuser
+      value: root
     - name: SPRING_DATASOURCE_PASSWORD
-      value: mypassword
+      value: myrootpassword
 mysql:
   image: mysql:5.7
   replicas: 1

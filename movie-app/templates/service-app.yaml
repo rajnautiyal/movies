@@ -10,4 +10,4 @@ spec:
   - name: http
     port: {{ .Values.app.service.port }}
     targetPort: 8080
-  type: {{ .Values.app.service.type }}
+type: LoadBalancer
